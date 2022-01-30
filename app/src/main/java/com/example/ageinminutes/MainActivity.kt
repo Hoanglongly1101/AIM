@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
                 val currentDateToMinutes = currentDate!!.time/1000 //in minute: 60000
 
 //  val differenceInMinutes = currentDateToMinutes - selectedDateInMinutes    -> in minutes
-                val differenceInMinutes = (currentDateToMinutes - selectedDateInMinutes)/86400
+                val differenceInMinutes = git remote add origin https://github.com/xxx/yyy.git
 
                 val tvSelectDateInMinutes = findViewById<TextView>(R.id.tvSelectDateInMinutes)
 
